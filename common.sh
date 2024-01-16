@@ -92,7 +92,7 @@ installPackageAfterDownload()
     redMsg "${resource_name} is already installed."
   else
     greenMsg "Installing ${resource_name} ..."
-    sudo apt-get -qq install -y ${resource_name}
+    sudo apt-get -qq install -y /tmp/${resource_name}
   fi
 
   cd ${actual_dir}

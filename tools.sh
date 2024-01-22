@@ -70,6 +70,9 @@ installPackage curl jq
 
 installPackage maven gradle
 
+# neovim telescope
+installPackage ripgrep fd-find
+
 sudo apt-get -qq autoremove
 
 magentaMsg "Download jetbrains-toolbox."

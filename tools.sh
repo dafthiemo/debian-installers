@@ -70,6 +70,9 @@ installPackage curl jq
 
 installPackage maven gradle
 
+# tilix terminal emulator
+installPackage tilix
+
 # neovim telescope
 installPackage ripgrep fd-find
 

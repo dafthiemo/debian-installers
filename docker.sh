@@ -52,8 +52,6 @@ installPackage ca-certificates gnupg
 # Add docker repository
 # first add Docker’s GPG key via following curl command.
 
-magentaMsg "Download jetbrains-toolbox."
-
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --batch --yes --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
